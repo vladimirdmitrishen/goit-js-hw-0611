@@ -3,5 +3,5 @@ const textSize = document.querySelector('#text');
 
 changeFondSize.addEventListener('input', (event) => {
     console.log(event);
-    textSize.style.fondSize = event.target.value + 'px';
+    changeFondSize.style.fontSize = '(event.carrentTarget.value)px';
 });
